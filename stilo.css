@@ -1,0 +1,80 @@
+.contenedor {
+    width: 800px;
+    margin: 10% auto;
+    padding: 0 100px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(73, 91, 107, 0.6);
+    border: 0.5px solid black;
+    border-radius: 50px;
+  }
+
+  *{
+    box-sizing: border-box;
+    font-family: 'Open sans';
+  }
+
+  .Vista2{
+    width: 90%;
+    margin: 5% auto;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(73, 91, 107, 0.6);
+    border: 0.5px solid black;
+    border-radius: 50px;
+  }
+
+  .Vista2 h1,h2 {
+    color: beige;
+  }
+
+  .Vista2 p {
+    color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: beige;
+  }
+  
+  .contenedor label {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .contenedor input {
+    background-color: aliceblue;
+    width: 10px;
+  }
+
+  body {
+    background-image: url(../img/f3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  button {
+    text-align: center;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 65px;
+    height: 30px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(14, 106, 71, 0.75);
+    color: beige; 
+    padding: 5px;
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 500ms;
+  }
+  
+  button:hover{
+    background: rgb(194, 203, 202);
+    color: rgb(4, 90, 61);
+  }
+
+  

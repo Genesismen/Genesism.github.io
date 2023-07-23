@@ -1,0 +1,25 @@
+ 
+body {
+    background-image: url(../img/f2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+ 
+  nav{
+    margin-left: 10%;
+    text-align: left;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(160, 160, 191);
+
+  }
+  h1{
+    margin: 37px auto;
+    text-align: center;
+    font-size: 90px;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  

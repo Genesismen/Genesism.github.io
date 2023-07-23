@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Acceso</title>
+
+    <link rel="stylesheet" href="css/stilo.css">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/sweetalert2.min.css">
+    
+</head>
+<body>            
+    <form class="container">
+        <div class="center-align contenedor" id="Vista_1">
+            <h1>Iniciar Sesión</h1>
+            <div >
+                <label for="Usuario">Ingrese su Usuario</label><br>
+                <input type="text" name="Usuario" placeholder="Usuario" id="Usuario" autofocus required><br><br>
+            </div>
+            <div >
+                <label for="Contraseña">Ingrese su Contraseña</label><br>
+                <input type="password" name="Contraseña" placeholder="Contraseña" id="Contraseña" required>
+                <input type="checkbox" name="Mostrar Contraseña" id="Mostrar" title="Clic para mostrar contraseña">
+                <label for="Mostrar Contraseña"> Mostrar Contraseña</label><br><br>
+            </div>
+            <div>
+                <button type="button" id="Login">Acceder</button>
+            </div>            
+        </div>
+        <div class="Vista2" id="Vista_2" style="display: none;" >
+            <h1>Vista 2</h1>
+            <p>Esta es la segunda vista de la pagina</p>
+            <h2>Bienvenido</h2>
+            <p> Espere um momento</p>
+        </div>
+    </form>    
+    <script src="./js/jquery.js"></script>    
+    <script src="./js/sweetalert2.min.js"></script>
+    <script src="./js/Funcion.js"></script>
+    <script src="./js/Showpassword.js"></script>
+    <script src="./js/materialize.min.js"></script>
+</body>
+</html>
